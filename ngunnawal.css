@@ -1,0 +1,19 @@
+h1 {
+    color: blue;
+    text-align: center;
+}
+h2{
+    color:gray;
+}
+
+.grid-container{
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-gap: 1em;
+    grip-padding: 1em;
+}
+
+.full-width{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
